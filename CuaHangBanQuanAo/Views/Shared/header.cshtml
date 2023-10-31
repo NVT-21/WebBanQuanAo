@@ -1,0 +1,47 @@
+﻿<header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="/Home/Index" class="logo">
+                        <img src="../layoutBH/assets/images/logo.png">
+                    </a>
+                    <!-- ***** Logo End ***** -->
+                    <!-- ***** Menu Start ***** -->
+                    <ul class="nav">
+                        <li class="scroll-to-section"><a href="#top" class="active">Trang Chủ</a></li>
+                       @*  <li class="scroll-to-section"><a href="#men">Men's</a></li>
+                        <li class="scroll-to-section"><a href="#women">Women's</a></li>
+                        <li class="scroll-to-section"><a href="#kids">Kid's</a></li> *@
+                        <li class="submenu">
+                            <a href="javascript:;">Sản Phẩm</a>
+                            <ul>
+                                <li><a asp-controller="Home" asp-action="SanPhamTheoLoai" asp-route-loai="men">Quần Áo Nam</a></li>
+                                <li><a asp-controller="Home" asp-action="SanPhamTheoLoai" asp-route-loai="women" >Quần Áo Nữ</a></li>
+                                <li><a asp-controller="Home" asp-action="SanPhamTheoLoai" asp-route-loai="kid">Quần Áo Trẻ Em</a></li>
+                               
+                            </ul>
+                        </li>
+                        <li class="submenu">
+                            <a href="javascript:;">Thông tin Liên hệ</a>
+                            <ul>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Instgram</a></li>
+                                
+                              
+                            </ul>
+                        </li>
+                        <li class="scroll-to-section"><a href="#explore">Giới thiệu</a></li>
+                    </ul>
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+
+</header>

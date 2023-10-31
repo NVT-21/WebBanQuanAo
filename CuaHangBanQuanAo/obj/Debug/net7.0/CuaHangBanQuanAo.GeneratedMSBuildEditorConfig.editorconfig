@@ -1,0 +1,121 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CuaHangBanQuanAo
+build_property.RootNamespace = CuaHangBanQuanAo
+build_property.ProjectDir = D:\Learn in class\Năm 3-kì 1\ASP WEB\CuaHangBanQuanAo\CuaHangBanQuanAo\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Learn in class\Năm 3-kì 1\ASP WEB\CuaHangBanQuanAo\CuaHangBanQuanAo
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Areas/Admin/Views/homeAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcaG9tZUFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Areas/Admin/Views/homeAdmin/SuaSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcaG9tZUFkbWluXFN1YVNhblBoYW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Areas/Admin/Views/homeAdmin/TatCaSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcaG9tZUFkbWluXFRhdENhU2FuUGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Areas/Admin/Views/homeAdmin/ThemSanPhamMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcaG9tZUFkbWluXFRoZW1TYW5QaGFtTW9pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Areas/Admin/Views/Shared/layoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXGxheW91dEFkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Access/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNzXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/CRUD/Render.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ1JVRFxSZW5kZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Home/ChiTietSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGlUaWV0U2FuUGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Home/HienThiSanPham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIaWVuVGhpU2FuUGhhbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Home/SanPhamTheoLoai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTYW5QaGFtVGhlb0xvYWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Shared/Components/Kid/RenderKid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcS2lkXFJlbmRlcktpZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Shared/Components/Man/RenderMan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWFuXFJlbmRlck1hbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Shared/Components/Women/RenderWomen.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcV29tZW5cUmVuZGVyV29tZW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Shared/Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Shared/header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGhlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Shared/SingleProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNpbmdsZVByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Shared/_LayoutBH.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRCSC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Learn in class/Năm 3-kì 1/ASP WEB/CuaHangBanQuanAo/CuaHangBanQuanAo/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pf38n78c1q

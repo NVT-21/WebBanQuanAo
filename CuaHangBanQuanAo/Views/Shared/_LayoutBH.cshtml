@@ -1,0 +1,466 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>Hexa Shop</title>
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" type="text/css" href="../layoutBH/../layoutBH/../layoutBH/assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../layoutBH/../layoutBH/../layoutBH/assets/css/font-awesome.css">
+
+    <link rel="stylesheet" href="../layoutBH/../layoutBH/../layoutBH/assets/css/templatemo-hexashop.css">
+
+    <link rel="stylesheet" href="../layoutBH/../layoutBH/../layoutBH/assets/css/owl-carousel.css">
+
+    <link rel="stylesheet" href="../layoutBH/../layoutBH/../layoutBH/assets/css/lightbox.css">
+
+      </head>
+
+   
+    
+    <body>
+    
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+    
+    
+    <!-- ***** Header Area Start ***** -->
+   <partial name="header"/>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner" id="top">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="left-content">
+                        <div class="thumb">
+                            <div class="inner-content">
+                                <h4>Chúng tôi là  Hexa Shop</h4>
+                                <span>Ở đây có chất lượng tốt và giá cả phải chăng</span>
+                                <div class="main-border-button">
+                                    <a asp-controller="Home" asp-action="HienThiSanPham">Xem Ngay </a>
+                                </div>
+                            </div>
+                            <img src="../layoutBH/../layoutBH/assets/images/left-banner-image.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="right-content">
+                        <div class="row">
+                            @RenderBody()
+                            <div class="col-lg-6">
+                                <div class="right-first-image">
+                                    <div class="thumb">
+                                        <div class="inner-content">
+                                            <h4>Quần Áo Nữ  </h4>
+                                            
+                                        </div>
+                                        <div class="hover-content">
+                                            <div class="inner">
+                                                <h4>Quần Áo Nữ</h4>
+                                                <p>Chúng tôi sẽ mang đén cho bạn những sản phẩm tuyệt vời nhất </p>
+                                                <div class="main-border-button">
+                                                    <a asp-controller="Home" asp-action="SanPhamTheoLoai" asp-route-loai="women">Xem thêm</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img src="../layoutBH/assets/images/baner-right-image-01.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="right-first-image">
+                                    <div class="thumb">
+                                        <div class="inner-content">
+                                            <h4>Quần Áo Nam</h4>
+                                           
+                                        </div>
+                                        <div class="hover-content">
+                                            <div class="inner">
+                                                <h4>Quần Áo Nam</h4>
+                                                <p>Chúng tôi sẽ mang đén cho bạn những sản phẩm tuyệt vời nhất</p>
+                                                <div class="main-border-button">
+                                                    <a asp-controller="Home" asp-action="SanPhamTheoLoai" asp-route-loai="men">Xem thêm</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img src="../layoutBH/assets/images/baner-right-image-02.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="right-first-image">
+                                    <div class="thumb">
+                                        <div class="inner-content">
+                                            <h4>Quần Áo Trẻ Em</h4>
+                                            
+                                        </div>
+                                        <div class="hover-content">
+                                            <div class="inner">
+                                                <h4>Quần Áo Trẻ Em </h4>
+                                                <p>Chúng tôi sẽ mang đén cho bạn những sản phẩm tuyệt vời nhất</p>
+                                                <div class="main-border-button">
+                                                    <a asp-controller="Home" asp-action="SanPhamTheoLoai" asp-route-loai="kid">Xem thêm</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img src="../layoutBH/assets/images/baner-right-image-03.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="right-first-image">
+                                    <div class="thumb">
+                                        <div class="inner-content">
+                                            <h4>Giày</h4>
+                                            
+                                        </div>
+                                        <div class="hover-content">
+                                            <div class="inner">
+                                                <h4>Giày</h4>
+                                                <p>Chúng tôi sẽ mang đén cho bạn những sản phẩm tuyệt vời nhất</p>
+                                                <div class="main-border-button">
+                                                    <a href="#">Xem thêm</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <img src="../layoutBH/assets/images/baner-right-image-04.jpg">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** Men Area Starts ***** -->
+    <section class="section" id="men">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                        <h2>Quần Áo Nam mới nhất </h2>
+                        <span>Luôn cập nhập những kiểu mới nhất hiện nay là điều khiến cửa hàng chúng tôi khác với những cửa hàng khác </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="men-item-carousel">
+                        <div class="owl-men-item owl-carousel">
+                            @await Component.InvokeAsync("Man")
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ***** Men Area Ends ***** -->
+
+    <!-- ***** Women Area Starts ***** -->
+    <section class="section" id="women">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                        <h2>Quần Áo Nữ Mới Nhất</h2>
+                        <span>Luôn cập nhập những kiểu mới nhất hiện nay là điều khiến cửa hàng chúng tôi khác với những cửa hàng khác</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="women-item-carousel">
+                        <div class="owl-women-item owl-carousel">
+                         @await  Component.InvokeAsync("Women")
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Women Area Ends ***** -->
+
+    <!-- ***** Kids Area Starts ***** -->
+    <section class="section" id="kids">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="section-heading">
+                        <h2>Quần Áo Trẻ Em mới nhất </h2>
+                        <span>Luôn cập nhập những kiểu mới nhất hiện nay là điều khiến cửa hàng chúng tôi khác với những cửa hàng khác</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="kid-item-carousel">
+                        <div class="owl-kid-item owl-carousel">
+                            @await  Component.InvokeAsync("Kid")
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Kids Area Ends ***** -->
+
+    <!-- ***** Explore Area Starts ***** -->
+    <section class="section" id="explore">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="left-content">
+                        <h2>Phương châm kinh doanh của cửa hàng</h2>
+           
+                        <div class="quote">
+                            <i class="fa fa-quote-left"></i><p>Chúng tôi không kiếm tiền từ ban hàng .Chúng tôi kiếm tiền từ việc giúp khách hàng đưa ra quyết định mua sắm   </p>
+                        </div>
+
+                       
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="right-content">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="leather">
+                                    <h4>Giá cả phải chăng</h4>
+                                    <span>cập nhập xu hướng mới nhất</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="first-image">
+                                    <img src="../layoutBH/../layoutBH/assets/images/explore-image-01.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="second-image">
+                                    <img src="../layoutBH/../layoutBH/assets/images/explore-image-02.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="types">
+                                    <h4>Đa dạng sản phẩm</h4>
+                                    <span>Với nhiều kiểu dáng</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Explore Area Ends ***** -->
+
+    <!-- ***** Social Area Starts ***** -->
+    <section class="section" id="social">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Social Media</h2>
+                        <span>Details to details is what makes Hexashop different from the other themes.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row images">
+                <div class="col-2">
+                    <div class="thumb">
+                        <div class="icon">
+                            <a href="http://instagram.com">
+                                <h6>Fashion</h6>
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <img src="../layoutBH/../layoutBH/assets/images/instagram-01.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="thumb">
+                        <div class="icon">
+                            <a href="http://instagram.com">
+                                <h6>New</h6>
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <img src="../layoutBH/../layoutBH/assets/images/instagram-02.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="thumb">
+                        <div class="icon">
+                            <a href="http://instagram.com">
+                                <h6>Brand</h6>
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <img src="../layoutBH/../layoutBH/assets/images/instagram-03.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="thumb">
+                        <div class="icon">
+                            <a href="http://instagram.com">
+                                <h6>Makeup</h6>
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <img src="../layoutBH/../layoutBH/assets/images/instagram-04.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="thumb">
+                        <div class="icon">
+                            <a href="http://instagram.com">
+                                <h6>Leather</h6>
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <img src="../layoutBH/../layoutBH/assets/images/instagram-05.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="thumb">
+                        <div class="icon">
+                            <a href="http://instagram.com">
+                                <h6>Bag</h6>
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <img src="../layoutBH/../layoutBH/assets/images/instagram-06.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Social Area Ends ***** -->
+
+    <!-- ***** Subscribe Area Starts ***** -->
+    <div class="subscribe">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="section-heading">
+                        <h2>Hiện nay đang có nhiều chương chình ưu đãi </h2>
+                        <span> Hãy đến cửa hàng chúng tôi để nhận được nhiều ưu đãi </span>
+                    </div>
+                   @*  <form id="subscribe" action="" method="get">
+                        <div class="row">
+                          <div class="col-lg-5">
+                            <fieldset>
+                              <input name="name" type="text" id="name" placeholder="Your Name" required="">
+                            </fieldset>
+                          </div>
+                          <div class="col-lg-5">
+                            <fieldset>
+                              <input name="email" type="text" id="email"  placeholder="Your Email Address" required="">
+                            </fieldset>
+                          </div>
+                          <div class="col-lg-2">
+                            <fieldset>
+                              <button type="submit" id="form-submit" class="main-dark-button"><i class="fa fa-paper-plane"></i></button>
+                            </fieldset>
+                          </div>
+                        </div>
+                    </form> *@
+                </div>
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul>
+                                <li>Địa điểm :<br><span>ngõ 898 Đường láng -Đông đa -Hà Nội</span></li>
+                                <li>Số điện thoai:<br><span>0310293012</span></li>
+                                
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul>
+                                <li>Giờ bán :<br><span>07:30  - 23:00 hằng ngày</span></li>
+                                <li>Email:<br><span>info@company.com</span></li>
+                                <li>Mạng xã hội:<br><span><a href="#">Facebook</a>, <a href="#">Instagram</a>, <a href="#">Behance</a>, <a href="#">Linkedin</a></span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Subscribe Area Ends ***** -->
+    
+    <!-- ***** Footer Start ***** -->
+    <partial name="Footer" />
+
+    <!-- jQuery -->
+    <script src="../layoutBH/../layoutBH/assets/js/jquery-2.1.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="../layoutBH/../layoutBH/assets/js/popper.js"></script>
+    <script src="../layoutBH/../layoutBH/assets/js/bootstrap.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="../layoutBH/../layoutBH/assets/js/owl-carousel.js"></script>
+    <script src="../layoutBH/../layoutBH/assets/js/accordions.js"></script>
+    <script src="../layoutBH/../layoutBH/assets/js/datepicker.js"></script>
+    <script src="../layoutBH/../layoutBH/assets/js/scrollreveal.min.js"></script>
+    <script src="../layoutBH/../layoutBH/assets/js/waypoints.min.js"></script>
+    <script src="../layoutBH/../layoutBH/assets/js/jquery.counterup.min.js"></script>
+    <script src="../layoutBH/../layoutBH/assets/js/imgfix.min.js"></script> 
+    <script src="../layoutBH/../layoutBH/assets/js/slick.js"></script> 
+    <script src="../layoutBH/../layoutBH/assets/js/lightbox.js"></script> 
+    <script src="../layoutBH/../layoutBH/assets/js/isotope.js"></script> 
+    
+    <!-- Global Init -->
+    <script src="../layoutBH/../layoutBH/assets/js/custom.js"></script>
+
+    <script>
+
+        $(function() {
+            var selectedClass = "";
+            $("p").click(function(){
+            selectedClass = $(this).attr("data-rel");
+            $("#portfolio").fadeTo(50, 0.1);
+                $("#portfolio div").not("."+selectedClass).fadeOut();
+            setTimeout(function() {
+              $("."+selectedClass).fadeIn();
+              $("#portfolio").fadeTo(50, 1);
+            }, 500);
+                
+            });
+        });
+
+    </script>
+
+  </body>
+</html>

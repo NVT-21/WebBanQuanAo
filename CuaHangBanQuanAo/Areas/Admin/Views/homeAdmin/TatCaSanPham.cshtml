@@ -1,0 +1,83 @@
+﻿
+
+@{
+    ViewData["Title"] = "SanPham";
+    Layout = "~/Areas/Admin/Views/Shared/layoutAdmin.cshtml";
+}
+@using CuaHangBanQuanAo.Models
+@using X.PagedList.Mvc.Core
+@model X.PagedList.IPagedList<SanPham>
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+<h1>Tất cả sản phẩm</h1>
+
+<p>
+    <a asp-action="ThemSanPhamMoi">Thêm mới sản phẩm </a>
+</p>
+@if (!string.IsNullOrEmpty(ViewBag.Message))
+{
+    <div class="alert alert-success">
+        @ViewBag.Message
+    </div>
+}
+<table class="table">
+    <thead>
+        <tr class="table-warning">
+            <th>
+                Tên Sản phẩm
+            </th>
+            <th>
+               Giá Bán
+            </th>
+            <th>
+               Mổ tả
+            </th>
+            <th>
+                Ảnh
+            </th>
+            <th>
+               Loại
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr class="table-success ">
+            <td>
+                @Html.DisplayFor(modelItem => item.TenSp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GiaBan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mota)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Anh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Loai)
+            </td>
+            <td>
+                <a asp-action="SuaSanPham" asp-route-maSanPham="@item.MaSp">Sửa</a> |
+               
+                <a asp-action="XoaSanPham" asp-route-maSanPham="@item.MaSp">Xóa</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+<div class="pagination">
+
+    <ul>
+        <li>
+            @Html.PagedListPager(Model,page=>Url.Action("HienThiSanPham",new{page=page}))
+        </li>
+
+    </ul>
+</div>
+
+       
+
