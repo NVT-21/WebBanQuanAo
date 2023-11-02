@@ -1,4 +1,5 @@
 ﻿using CuaHangBanQuanAo.Models;
+using CuaHangBanQuanAo.Models.Authentication;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CuaHangBanQuanAo.Controllers
@@ -8,6 +9,7 @@ namespace CuaHangBanQuanAo.Controllers
     {
         WebBanQuanAoContext db = new WebBanQuanAoContext();
         [HttpGet]
+        
         public ActionResult Login()
         {
 
