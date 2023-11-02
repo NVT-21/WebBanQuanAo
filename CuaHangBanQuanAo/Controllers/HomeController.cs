@@ -6,6 +6,9 @@ using X.PagedList;
 
 using System.Diagnostics;
 using CuaHangBanQuanAo.Models.Authentication;
+using static Microsoft.Extensions.Logging.EventSource.LoggingEventSource;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+using System.Drawing.Printing;
 
 namespace CuaHangBanQuanAo.Controllers
 {
@@ -43,10 +46,8 @@ namespace CuaHangBanQuanAo.Controllers
 	
 			
 			int	pageSize = 6;
-			
 			int pageNumber=page==null||page<0?1:page.Value;
 			var sanPham = db.SanPhams.AsNoTracking().OrderBy(x => x.TenSp);
-
             PagedList<SanPham> lst = new PagedList<SanPham>(sanPham, pageNumber, pageSize);
 			return View(lst);
 		}
@@ -69,6 +70,19 @@ namespace CuaHangBanQuanAo.Controllers
             PagedList<SanPham> lst = new PagedList<SanPham>(sanPhamQuery.OrderBy(x => x.TenSp), pageNumber, pageSize);
             return View(lst);
         }
+        public IActionResult TimKiem(string tensp, int page = 1, int pageSize = 5)
+		{
+            var listProduct = db.SanPhams.Where(p => p.TenSp.StartsWith(tensp)).ToList();
+            int totalItems = listProduct.Count();
+			var products = listProduct.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+			ViewBag.TotalItems = totalItems;
+			ViewBag.PageSize = pageSize;
+			ViewBag.CurrentPage = page;
+			ViewBag.tensp=tensp;
+
+			return View(products);
+          
+		}
 
 		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
 		public IActionResult Error()
